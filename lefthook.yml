@@ -1,0 +1,10 @@
+pre-commit:
+  commands:
+    lint:
+      glob: "*.{json,ts,yaml,yml}"
+      run: eslint {staged_files}
+
+commit-msg:
+  commands:
+    lint:
+      run: commitlint --edit
