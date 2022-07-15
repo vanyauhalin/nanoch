@@ -4,14 +4,14 @@ specifiers:
   '@arkweid/lefthook': ^0.7.7
   '@commitlint/cli': ^17.0.3
   '@commitlint/config-conventional': ^17.0.3
-  '@vanyauhalin/eslint-config-typescript': ^0.21.0
+  '@vanyauhalin/eslint-config-typescript': ^0.22.0
   eslint: ^8.19.0
 
 devDependencies:
   '@arkweid/lefthook': 0.7.7
   '@commitlint/cli': 17.0.3
   '@commitlint/config-conventional': 17.0.3
-  '@vanyauhalin/eslint-config-typescript': 0.21.0_eslint@8.19.0
+  '@vanyauhalin/eslint-config-typescript': 0.22.0_eslint@8.19.0
   eslint: 8.19.0
 
 packages:
@@ -444,9 +444,8 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vanyauhalin/eslint-config-base/0.21.0_rywvbqnelbznwddhxv2glfjuay:
-    resolution: {integrity: sha512-s5soEhwG5qsArdOguWPPad6hGJEbApb9cgQ4EW0htpln7Ij3nezSwPm8E3cvsg5m1irINiMO97Weq5CTqw75nQ==, tarball: download/@vanyauhalin/eslint-config-base/0.21.0/7dcda2d2a7006953a279bcd098d8fbe0b719311c70fd82964ddfabcbaf71bbbf}
-    engines: {node: '>=12', pnpm: '>=4'}
+  /@vanyauhalin/eslint-config-base/0.22.0_rywvbqnelbznwddhxv2glfjuay:
+    resolution: {integrity: sha512-2QR+qFpZPxXAtfphEAxt/llF51kUDdT+STcgqOUF/nFUl645jH8+KxaiUxI1KXhchbHiZRiX7VcrAi2h6WKELw==, tarball: download/@vanyauhalin/eslint-config-base/0.22.0/d69deeced45aa406c06f125373fa35848da57335caf53012384e92e049c1915a}
     peerDependencies:
       eslint: ^7.32.0 || ^8.0.0
     dependencies:
@@ -470,16 +469,15 @@ packages:
       - supports-color
     dev: true
 
-  /@vanyauhalin/eslint-config-typescript/0.21.0_eslint@8.19.0:
-    resolution: {integrity: sha512-iV11JFuoQcbxy5R2dpwOJ9hi2hJH3OoaM+JbPc/4dwd0qRSEV9fQWRRDMLicFH2Z7BSox8PgR4H+v4iI6Oaw2A==, tarball: download/@vanyauhalin/eslint-config-typescript/0.21.0/9a60822eb63bd983cd58bc280b9d680d7efac6ade28865c9d945f2a2af78bfa4}
-    engines: {node: '>=12', pnpm: '>=4'}
+  /@vanyauhalin/eslint-config-typescript/0.22.0_eslint@8.19.0:
+    resolution: {integrity: sha512-0aYoZ70cW6llWQQ5GpOOhvxe4jRPTbPxMQHMgj5Tyqf+LVDPaNNpoWmHwSrhkuNGKqsV+CJgGKnFiYVTx56ubw==, tarball: download/@vanyauhalin/eslint-config-typescript/0.22.0/8767477fa7280310307654b2f054274fa3d256ce55709c40a2e38fcff2e23d6a}
     peerDependencies:
       eslint: ^7.32.0 || ^8.0.0
       typescript: ^4.0.0
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.30.6_rywvbqnelbznwddhxv2glfjuay
       '@typescript-eslint/parser': 5.30.6_eslint@8.19.0
-      '@vanyauhalin/eslint-config-base': 0.21.0_rywvbqnelbznwddhxv2glfjuay
+      '@vanyauhalin/eslint-config-base': 0.22.0_rywvbqnelbznwddhxv2glfjuay
       eslint: 8.19.0
       eslint-config-airbnb-typescript: 17.0.0_ut7zhdcngnabms2winrsux5kxi
       eslint-plugin-import: 2.26.0_rywvbqnelbznwddhxv2glfjuay
