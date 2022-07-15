@@ -1,0 +1,23 @@
+{
+  "name": "@vanyauhalin/nanoch",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "github:vanyauhalin/nanoch",
+  "license": "MIT",
+  "author": "Ivan Uhalin <vanyauhalin@gmail.com>",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@arkweid/lefthook": "^0.7.7",
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@types/node": "^18.0.4",
+    "@vanyauhalin/eslint-config-typescript": "^0.22.0",
+    "eslint": "^8.19.0",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
