@@ -5,6 +5,9 @@
   "repository": "github:vanyauhalin/nanoch",
   "license": "MIT",
   "author": "Ivan Uhalin <vanyauhalin@gmail.com>",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.7",
     "@commitlint/cli": "^17.0.3",
